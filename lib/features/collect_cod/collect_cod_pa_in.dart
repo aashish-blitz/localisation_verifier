@@ -1,0 +1,35 @@
+import 'package:localisation_review/features/collect_cod/collect_cod_lang_constants.dart' show CollectCodLangConstants;
+
+class CollectCodPaIn {
+  static Map<String, String> get translations => {
+        CollectCodLangConstants.headCollectPayment: 'ਪੇਮੈਂਟ ਇਕੱਠੀ ਕਰੋ',
+        CollectCodLangConstants.lblUseMyQrToCollect: 'ਮੇਰਾ QR ਵਰਤੋਂ',
+        CollectCodLangConstants.lblCollectCash: 'ਕੈਸ਼ ਇਕੱਠਾ ਕਰੋ',
+        CollectCodLangConstants.lblSendPaymentLink: 'ਪੇਮੈਂਟ ਲਿੰਕ ਭੇਜੋ',
+        CollectCodLangConstants.lblBlitzPaymentLink: 'Blitz ਪੇਮੈਂਟ ਲਿੰਕ',
+        CollectCodLangConstants.lblUseMyQr: 'ਮੇਰਾ QR ਵਰਤੋਂ',
+        CollectCodLangConstants.msgAreYouSureCollectedCod: 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਰਕਮ ਇਕੱਠੀ ਕਰ ਲਈ ਹੈ?',
+        CollectCodLangConstants.msgDepositSameAmountInTheHub: 'ਤੁਹਾਨੂੰ ਹੱਬ ਵਿੱਚ ਉਨੀ ਹੀ ਰਕਮ ਜਮ੍ਹਾਂ ਕਰਾਉਣੀ ਪਵੇਗੀ',
+        CollectCodLangConstants.lblYesAmountCollected: 'ਹਾਂ, ਰਕਮ ਇਕੱਠੀ ਕਰ ਲਈ ਹੈ',
+        CollectCodLangConstants.lblNotCollected: 'ਇਕੱਠੀ ਨਹੀਂ ਕੀਤੀ',
+        CollectCodLangConstants.headPaymentCollected: 'ਪੇਮੈਂਟ ਇਕੱਠੀ ਹੋ ਗਈ',
+        CollectCodLangConstants.headPaymentFailed: 'ਪੇਮੈਂਟ ਫੇਲ੍ਹ ਹੋ ਗਈ',
+        CollectCodLangConstants.msgThePaymentHasBeenCollected: 'ਪੇਮੈਂਟ ਸਫਲਤਾਪੂਰਵਕ ਇਕੱਠੀ ਹੋ ਗਈ ਹੈ',
+        CollectCodLangConstants.msgFailedToCollectThePayment: 'ਪੇਮੈਂਟ ਇਕੱਠੀ ਕਰਨ ਵਿੱਚ ਅਸਫਲ',
+        CollectCodLangConstants.lblCapturePaymentProof: 'ਪੇਮੈਂਟ ਦਾ ਸਬੂਤ ਕੈਪਚਰ ਕਰੋ',
+        CollectCodLangConstants.lblReCapture: 'ਦੁਬਾਰਾ ਕੈਪਚਰ ਕਰੋ',
+        CollectCodLangConstants.msgFacingIssueCaptureImage: 'ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ? ਪੇਮੈਂਟ ਦਾ ਸਬੂਤ ਕੈਪਚਰ ਕਰਕੇ ਮੋਬਾਈਲ ਗੈਲਰੀ ਵਿੱਚ ਸੇਵ ਕਰੋ',
+        CollectCodLangConstants.lblTimeOut: 'ਟਾਈਮ ਆਊਟ',
+        CollectCodLangConstants.lblRegenerateQr: 'QR ਦੁਬਾਰਾ ਬਣਾਓ',
+        CollectCodLangConstants.msgWeAreFetchingPaymentStatus: 'ਅਸੀਂ ਪੇਮੈਂਟ ਸਟੇਟਸ ਚੈੱਕ ਕਰ ਰਹੇ ਹਾਂ, ਉਡੀਕ ਕਰੋ',
+        CollectCodLangConstants.lblNoDontCancel: 'ਨਹੀਂ, ਰੱਦ ਨਾ ਕਰੋ',
+        CollectCodLangConstants.lblYesCancelPayment: 'ਹਾਂ, ਪੇਮੈਂਟ ਰੱਦ ਕਰੋ',
+        CollectCodLangConstants.msgAreYouSureToCancelPayment: 'ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਪੇਮੈਂਟ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?',
+        CollectCodLangConstants.msgCollectCash: 'ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਕੱਠੀ ਕੀਤੀ ਰਕਮ ਸਕ੍ਰੀਨ ਤੇ ਦਿਖਾਈ ਰਕਮ ਦੇ ਬਰਾਬਰ ਹੈ',
+        CollectCodLangConstants.msgEnsureToCollectDisplayedAmount: 'ਦਿਖਾਈ ਗਈ ਰਕਮ ਇਕੱਠੀ ਕਰਨਾ ਯਕੀਨੀ ਬਣਾਓ',
+        CollectCodLangConstants.msgPaymentLinkCopied: 'ਪੇਮੈਂਟ ਲਿੰਕ ਕਾਪੀ ਹੋ ਗਿਆ',
+        CollectCodLangConstants.lblPaymentLinkError: 'ਪੇਮੈਂਟ ਲਿੰਕ ਵਿੱਚ ਗਲਤੀ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ',
+        CollectCodLangConstants.lblSwipeToContinueToFurtherText: 'ਅਗਲੇ ਸਟੈਪਸ ਲਈ ਸਵਾਈਪ ਕਰੋ',
+        CollectCodLangConstants.msgFailedToSendPaymentLink: 'ਪੇਮੈਂਟ ਲਿੰਕ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲ, ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ',
+      };
+}
